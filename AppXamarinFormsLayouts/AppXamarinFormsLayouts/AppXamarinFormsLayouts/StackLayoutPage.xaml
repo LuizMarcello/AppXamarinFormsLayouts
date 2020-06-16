@@ -6,10 +6,18 @@
              mc:Ignorable="d"
              x:Class="AppXamarinFormsLayouts.StackLayoutPage">
 
-    <StackLayout>
-        <Label Text="Xamarin Forms 1" />
-        <Label Text="Xamarin Forms 2" />
-        <Label Text="Xamarin Forms 3" />
+    <StackLayout BackgroundColor="Yellow" Orientation="Horizontal"
+                 VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+                 Padding="20" Spacing="20">
+        
+        <StackLayout BackgroundColor="Aqua">
+            <Image Source="http://www.macoratti.net/Imagens/animais/cao1.jpg" 
+                   HeightRequest="30" WidthRequest="30" Aspect="AspectFit" />
+            <Label Text="Xamarin Forms 1" BackgroundColor="Silver" />
+        </StackLayout>
+        
+        <Label Text="Xamarin Forms 2" BackgroundColor="Silver" />
+        <Label Text="Xamarin Forms 3" BackgroundColor="Silver" />
     </StackLayout>
 
 </ContentPage>
