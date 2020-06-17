@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="AppXamarinFormsLayouts.StackLayoutPage">
 
-    <StackLayout BackgroundColor="Yellow" Orientation="Horizontal"
+    <!--<StackLayout BackgroundColor="Yellow" Orientation="Horizontal"
                  VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
                  Padding="20" Spacing="20">
         
@@ -18,6 +18,6 @@
         
         <Label Text="Xamarin Forms 2" BackgroundColor="Silver" />
         <Label Text="Xamarin Forms 3" BackgroundColor="Silver" />
-    </StackLayout>
+    </StackLayout>-->
 
 </ContentPage>
